@@ -1,0 +1,10 @@
+@import "globals";
+
+.App {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  scroll-behavior: smooth;
+  background: linear-gradient(30deg, $cp1, $cpa);
+
+}

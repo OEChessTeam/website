@@ -1,0 +1,96 @@
+@import "../../globals";
+
+.Landing {
+
+  .Content {
+    height: calc(100vh - 10vh);
+    display: flex;
+    flex-direction: row;
+
+    .left {
+      flex: 0.5;
+      overflow: hidden;
+      justify-content: center;
+      display: flex;
+      margin: 30px;
+
+      .awesomeSlider {
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        border-radius: 50px;
+        border: 2px solid $sc1;
+      }
+    }
+
+    .right {
+      flex: 0.5;
+      position: relative;
+      overflow-y: hidden;
+
+      .wrapper {
+        width: 100%;
+        height: 100%;
+        padding-left: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .imgContainer {
+          overflow-y: hidden;
+          padding-right: 10vw;
+
+          img {
+            scale: 1.15;
+          }
+        }
+
+        .text {
+          position: absolute;
+
+          h1 {
+            font-size: 70px;
+            margin: 10px 0;
+            color: $sc2;
+            position: relative;
+          }
+
+          h2 {
+            font-size: 40px;
+            color: $cp2;
+            position: relative;
+          }
+
+          h3 {
+            font-size: 30px;
+            color: $cp2;
+            position: relative;
+          }
+        }
+      }
+    }
+    a {
+      position: absolute;
+      bottom: 15px;
+      font-size: large;
+      scale: (2);
+      right: 45vw;
+      color: $sc1;
+
+      .img {
+        animation: arrowBlink 2s infinite;
+      }
+
+      @keyframes arrowBlink {
+        from {
+          opacity: 0;
+          transform: translateY(-5px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(5px);
+        }
+      }
+    }
+  }
+}

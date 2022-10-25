@@ -74,7 +74,7 @@
         a {
 
           .instagram {
-            color: $sc2;
+            color: $sc1;
             position: absolute;
             right: 80px;
             top: 23px;
@@ -83,7 +83,7 @@
             transition: all ease 1s;
 
             &:hover {
-              color: $sc1;
+              color: $cpa;
             }
           }
         }

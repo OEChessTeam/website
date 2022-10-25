@@ -16,11 +16,6 @@ function Topbar() {
                         Present
                     </span>
                 </a>
-                <a href="/login" className="a3">
-                    <span>
-                        Players
-                    </span>
-                </a>
             </div>
             <div className="right">
                 <div className="icons">

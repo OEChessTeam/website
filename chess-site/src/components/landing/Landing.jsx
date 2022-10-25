@@ -2,14 +2,15 @@ import './landing.scss';
 import withAutoPlay from 'react-awesome-slider/dist/autoplay';
 import AwesomeSlider from "react-awesome-slider";
 import 'react-awesome-slider/dist/styles.css';
-import blob from './blob.svg';
 import { ArrowDownward } from "@material-ui/icons";
+import Topbar from "../topbar/Topbar";
 
 const AutoPlaySlider = withAutoPlay(AwesomeSlider);
 
 function Landing() {
     return (
         <div className="Landing" id="landing">
+            <Topbar />
             <div className="Content">
                 <div className="left">
                     <AutoPlaySlider

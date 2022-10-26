@@ -7,13 +7,21 @@ function Present() {
     const [currentSlide, setCurrentSlide] = useState(0);
     const data = [
         {
-            desc: "Insert more pandering here",
-            img: "./assets/ajwe.png"
+            title: "At state in Peoria - right before competing on Friday!",
+            img: "./assets/IMG_20220213_074515_133.jpg"
 
         },
         {
-            desc: "Just a framework",
-            img: "./assets/ajwe.png"
+            title: "Chilling out at our table with some teambuilding!",
+            img: "./assets/thatFile.jpg"
+        },
+        {
+            title: "Breakfast before state!",
+            img: "./assets/Resized_20220210_070936.jpg"
+        },
+        {
+            title: "5th place as a team at the RAM invitational!",
+            img: "./assets/dumbAnshi.jpg"
         }
     ];
 
@@ -34,9 +42,6 @@ function Present() {
                         <div className="item">
                             <div className="left">
                                 <div className="leftContainer">
-                                    <div className="imgContainer">
-                                        <img src={d.icon} alt="" />
-                                    </div>
                                     <h2>{d.title}</h2>
                                     <p>{d.desc}</p>
                                 </div>

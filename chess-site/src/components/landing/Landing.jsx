@@ -23,11 +23,17 @@ function Landing() {
                         bullets={false}
                         media={[
                             {
-                                source: "./assets/ajwe.png"
+                                source: "./assets/IMG_20220213_074515_133.jpg"
                             },
                             {
                                 source: "./assets/IMG_3754.jpeg"
-                            }
+                            },
+                            {
+                                source: "./assets/20220212_121541.jpg"
+                            },
+                            {
+                                source: "./assets/IMG_20220211_184019_698.jpg"
+                            },
                         ]}
                     />
                 </div>
